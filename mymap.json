@@ -1,0 +1,374 @@
+{
+    "rooms": [
+        {
+            "id": "room1",
+            "desc": "You are in the middle of an oblivion. There's something writen in the wall. It says 'dead men tell no tales'...",
+            "e": "room2",
+            "s": "room12",
+            "w": "",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room2",
+            "desc": "All you remember is that you were kidnapped from the subway next to your home. And, now you're trapped in a maze. It's dark, and you can't see anything.",
+            "e": "room3",
+            "s": "room13",
+            "w": "",
+            "n": "room28",
+            "obj": [
+                "gun"
+            ]
+        },
+        {
+            "id": "room3",
+            "desc": "The room is moist and stinky... you might die because of the smell before any enemy kills you...",
+            "e": "room4",
+            "s": "room14",
+            "w": "room2",
+            "n": "",
+            "obj": [
+                "bullet"
+            ]
+        },
+        {
+            "id": "room4",
+            "desc": "You're cursing the one who put you here. But you must find your way out...",
+            "e": "room5",
+            "s": "gunroom",
+            "w": "room3",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room5",
+            "desc": "Smells like gun powder down here.",
+            "e": "room6",
+            "s": "room16",
+            "w": "room4",
+            "n": "room29",
+            "obj": []
+        },
+        {
+            "id": "room6",
+            "desc": "You must collect everything you find. You never know when you will need them.",
+            "e": "room7",
+            "s": "room17",
+            "w": "",
+            "n": "room30",
+            "obj": [
+                "gunlet"
+            ]
+        },
+        {
+            "id": "room7",
+            "desc": "Something tells you that this maze is not going to end anytime soon.",
+            "e": "room8",
+            "s": "room18",
+            "w": "",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room8",
+            "desc": "'Survival of the fittest!' Remember?",
+            "e": "room9",
+            "s": "room19",
+            "w": "room7",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room9",
+            "desc": "This emptiness is haunting you now...",
+            "e": "room10",
+            "s": "room20",
+            "w": "room8",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room10",
+            "desc": "Even the essence of death teaches a lot of things. And, you're trapped in a maze which has the essence of death in it's air.",
+            "e": "room11",
+            "s": "room21",
+            "w": "room9",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room11",
+            "desc": "You want to give up. But, you knew it from the beginning, giving up was never an option.",
+            "e": "",
+            "s": "room22",
+            "w": "room10",
+            "n": "",
+            "obj": [
+                "missile"
+            ]
+        },
+        {
+            "id": "room12",
+            "desc": "You're tired. Take some rest!",
+            "e": "",
+            "s": "",
+            "w": "",
+            "n": "room1",
+            "obj": []
+        },
+        {
+            "id": "room13",
+            "desc": "Well, well well! What do we have here???",
+            "e": "room14",
+            "s": "",
+            "w": "",
+            "n": "",
+            "obj": [
+                "granade"
+            ]
+        },
+        {
+            "id": "room14",
+            "desc": "You never knew you had it in you to take someone's life. But, when it's you vs them, what choice do you have?",
+            "e": "room15",
+            "s": "room24",
+            "w": "",
+            "n": "room3",
+            "obj": []
+        },
+        {
+            "id": "room15",
+            "desc": "Oops! Someone is looking for you...",
+            "e": "room4",
+            "s": "",
+            "w": "",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room16",
+            "desc": "Move slowly. There maybe trap mines.",
+            "e": "room17",
+            "s": "",
+            "w": "",
+            "n": "",
+            "obj": [
+                "hammer"
+            ]
+        },
+        {
+            "id": "room17",
+            "desc": "Well, it was terrifying in the beginning. But now it feels like an adventure.",
+            "e": "",
+            "s": "",
+            "w": "",
+            "n": "room6",
+            "obj": []
+        },
+        {
+            "id": "room18",
+            "desc": "You only live if they all die.",
+            "e": "",
+            "s": "room7",
+            "w": "",
+            "n": "",
+            "obj": [
+                "sword"
+            ]
+        },
+        {
+            "id": "room19",
+            "desc": "Hush... You hear someone passing by.",
+            "e": "room20",
+            "s": "",
+            "w": "room18",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room20",
+            "desc": "It's never wise to attack an enemy without proper weapons.",
+            "e": "room21",
+            "s": "room31",
+            "w": "",
+            "n": "room9",
+            "obj": [
+                "harpoon"
+            ]
+        },
+        {
+            "id": "room21",
+            "desc": "Every enemy has a weakness. Find it.",
+            "e": "",
+            "s": "",
+            "w": "room20",
+            "n": "room10",
+            "obj": [
+                "acid"
+            ]
+        },
+        {
+            "id": "room22",
+            "desc": "Kill them all.... ;-)",
+            "e": "",
+            "s": "room27",
+            "w": "room21",
+            "n": "room11",
+            "obj": []
+        },
+        {
+            "id": "room23",
+            "desc": "The fear of death always pushes one to do the unexpected.",
+            "e": "room24",
+            "s": "room26",
+            "w": "",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room24",
+            "desc": "A sign on a wall says 'I know that's not how you kill that big guy, your lecturer just didn't have time to make up another story.' You have no idea what it is talking about.",
+            "e": "room25",
+            "s": "",
+            "w": "room23",
+            "n": "room14",
+            "obj": []
+        },
+        {
+            "id": "room25",
+            "desc": "You see blood all around the floor here. Something bad must've happened here.",
+            "e": "",
+            "s": "",
+            "w": "room24",
+            "n": "room15",
+            "obj": []
+        },
+        {
+            "id": "room26",
+            "desc": "Remember! Making out alive is a reward on it's own!",
+            "e": "",
+            "s": "",
+            "w": "",
+            "n": "room23",
+            "obj": []
+        },
+        {
+            "id": "room27",
+            "desc": "You're one step close to the mysterious room now! Stay alert.",
+            "e": "",
+            "s": "",
+            "w": "",
+            "n": "room22",
+            "obj": []
+        },
+        {
+            "id": "room28",
+            "desc": "You always know there was a demon inside you. Did'nt you?",
+            "e": "",
+            "s": "room2",
+            "w": "",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room29",
+            "desc": "'I WILL FIND YOU AND I WILL KILL YOU' that's what's written in the wall.",
+            "e": "room30",
+            "s": "room5",
+            "w": "",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room30",
+            "desc": "You hear someone screaming. He must be in unbearable pain.",
+            "e": "",
+            "s": "",
+            "w": "room29",
+            "n": "",
+            "obj": []
+        },
+        {
+            "id": "room31",
+            "desc": "You're in a secret Nazi wearhouse.",
+            "e": "",
+            "s": "room20",
+            "w": "",
+            "n": "room32",
+            "obj": [
+                "nova gas"
+            ]
+        },
+        {
+            "id": "room32",
+            "desc": "That's it. You always knew she was evil. Kill her!!!!!!",
+            "e": "",
+            "s": "",
+            "w": "",
+            "n": "",
+            "obj": []
+        }
+    ],
+    "enemies": [
+        {
+            "id": "agent",
+            "initialroom": "room28",
+            "killedby": [
+                "gun",
+                "bullet"
+            ]
+        },
+        {
+            "id": "thanos",
+            "initialroom": "room30",
+            "killedby": [
+                "gunlet"
+            ]
+        },
+        {
+            "id": "hella",
+            "initialroom": "room29",
+            "killedby": [
+                "granade"
+            ]
+        },
+        {
+            "id": "darth vader",
+            "initialroom": "room12",
+            "killedby": [
+                "hammer"
+            ]
+        },
+        {
+            "id": "xerxes",
+            "initialroom": "room26",
+            "killedby": [
+                "harpoon"
+            ]
+        },
+        {
+            "id": "killmonger",
+            "initialroom": "room20",
+            "killedby": [
+                "nova gas"
+            ]
+        },
+        {
+            "id": "sphinx",
+            "initialroom": "room27",
+            "killedby": [
+                "acid"
+            ]
+        },
+        {
+            "id": "your ex",
+            "initialroom": "room32",
+            "killedby": [
+                "missile"
+            ]
+        }
+    ],
+    "player": {
+        "initialroom": "room1"
+    }
+}
